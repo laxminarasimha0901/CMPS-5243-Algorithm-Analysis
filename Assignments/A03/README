@@ -1,0 +1,5 @@
+Understanding the deletion of nodes in different scenarios
+When we try to delete a node from the Binary search tree it will search for the smallest value to be replaced with the deleted node, in line 97 of the cpp file the node will try to find the smallest value in the right subtree it is used when we try to when we are trying to delete the node. 
+1.	When deleting the leaf node: the leaf node is a node which has no children, when we delete the leaf node it will return null pointer and it does not effect the structure of tree because it is probably in the lowest level and has no children.
+2.	When deleting the node with one child: when we delete the node with one child either it is on the right side of that node or left side of that node it will be replaced by its only child because it is the only option we have to replace the deleted node. 
+3.	When we delete the root node: when we delete the root node replace with the smallest value from the right subtree because I chose inorder successor (which is the smallest value from the right subtree of the BST)
