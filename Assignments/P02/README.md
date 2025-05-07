@@ -1,9 +1,9 @@
-# GRAPH COLORING
+# *GRAPH COLORING*
 
-# Definition:
+# *Definition:*
 A graph consisting of a set of vertices and a set of edges, assigning a color to each vertex such that no adjacent vertex has the same color. 
 
-History of Graph coloring
+# History of Graph coloring
 
 Graph coloring originated from a natural problem in cartography: given some map, how can we color each area to distinguish it, without two neighboring areas having the same colors. This was first observed by Francis Guthrie. He had noticed that he could color the counties of England using four different colors. 
 
@@ -13,7 +13,7 @@ While the conjecture was easy to encounter in practice but it demonstrated to be
 
 This four-color theorem sparked the first major research on graph coloring. From this, it was logical step to extend planar graph coloring to coloring any given graph, determining the minimum number of colors such that a proper coloring of some graph exists with that number of colors.
 
-VERTEX COLORING:
+# VERTEX COLORING:
 
 Vertex coloring is a concept in graph theory that refers to assigning colors to the vertices of a graph in such a way that no two adjacent vertices have the same color.
 
@@ -21,7 +21,7 @@ Formally the vertex coloring of a graph is an assignment of colors. We usually r
 
 Finding the chromatic number of a graph is difficult and it belongs to the NP- complete class. Hence it is unlikely that there's an efficient way to solve it for all graphs. 
 
-APPROACHES TO SOLVING THE VERTEX COLORING PROBLEM
+# APPROACHES TO SOLVING THE VERTEX COLORING PROBLEM
 
 The most basic approach is brute force search. A brute force search algorithm involves trying all possible coloring of the graph and selecting the one with the minimum number of colors. While this algorithm is guaranteed to find the optimal solution, its computationally expensive. This approach is only feasible for small graphs.
 
@@ -29,17 +29,17 @@ The second approach is local search. Local search algorithms iteratively improve
 
 We can also formulate the vertex coloring problem as an integer linear program. This approach can find exact solutions to the program. It can be computationally expensive for large graphs.
 
-APPLICATIONS OF VERTEX COLORING 
+# APPLICATIONS OF VERTEX COLORING 
 
 Vertex coloring is an important problem in graph theory. Additionally, it has many applications in computer science, operations research, and other fields. Some of the most common applications of the vertex coloring problem include scheduling, routing, register allocation, and wireless frequency assignment.
 
-Scheduling problem:
+# Scheduling problem:
 In the scheduling problem, we must assign resources to the available tasks and avoid conflicts. To solve this problem, we can represent each task as a vertex and each resource as a color in a graph. Furthermore, we can determine the chromatic number from this graph. Hence, the chromatic number represents the minimum number of resources needed to complete all tasks without conflicts.
 
- Network routing problem:
+# Network routing problem:
 Let’s talk about the network routing problem. In routing, data packets must be routed through a network of nodes without conflicts. Furthermore, we can use vertex coloring to model this problem, with each node representing a vertex and each path representing a color in the graph. Additionally, the chromatic number denotes the least possible number of paths required to route all packets without conflicts.
 
-Compilers:
+# Compilers:
 In compilers, variables in a program must be assigned to registers in a computer’s processor. We can utilize vertex coloring and chromatic number concepts in order to provide the least possible number of registers needed to execute the program.
 
 Finally, in wireless network communication, the vertex coloring problem can be used for the frequency assignment of wireless channels for devices to avoid interference.
@@ -49,7 +49,7 @@ Finally, in wireless network communication, the vertex coloring problem can be u
 
 
 
-Example
+# Example
 Lets take a graph with 8 nodes
 
 Lets color the first node with green
