@@ -1,6 +1,7 @@
-#📌GRAPH COLORING
+# GRAPH COLORING
 
-#Definition:# A graph consisting of a set of vertices and a set of edges, assigning a color to each vertex such that no adjacent vertex has the same color. 
+# Definition:
+A graph consisting of a set of vertices and a set of edges, assigning a color to each vertex such that no adjacent vertex has the same color. 
 
 History of Graph coloring
 
