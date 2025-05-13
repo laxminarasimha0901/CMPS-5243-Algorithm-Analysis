@@ -96,6 +96,28 @@ Lets color the 7th node with blue because it cannot be colored with either red o
 
 Lets color the node 8 with red
 
+the colored graph in docx
 
 
+What is vertex coloring of a graph?
+**a) A condition where any two vertices having a common edge should not have same color**
+b) A condition where any two vertices having a common edge should always have same color
+c) A condition where all vertices should have a different color
+d) A condition where all vertices should have same color
+2.Minimum number of unique colors required for vertex coloring of a graph is called?
+a) vertex matching
+b) chromatic index
+**c) chromatic number**
+d) color number
+
+How many unique colors will be required for proper vertex coloring of an empty graph having n vertices?
+ a) 0
+ **b) 1**
+ c) 2
+ d) n
+How many unique colors will be required for proper vertex coloring of a bipartite graph having n vertices?
+ a) 0
+ b) 1
+ **c) 2**
+ d) n
 
